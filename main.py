@@ -54,6 +54,9 @@ if __name__=="__main__":
         messages = get_message_list_local("messages.json")
         chanels = get_chanel_list_local("chanels.json")
         for chanel in chanels:
-            workWithChanel(chanel, random.choice(messages),client)
+            try:
+                workWithChanel(chanel, random.choice(messages),client)
+            except Exception as e:
+                logging.error(f"Chanel report exception {chanel}, error : {e}")
     
     
