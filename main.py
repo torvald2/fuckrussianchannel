@@ -10,8 +10,7 @@ logging.basicConfig(level=logging.INFO)
 
 if __name__=="__main__":
     conf = services.Config()
-    string =""
-    with TelegramClient(StringSession(string), conf.api_id, conf.api_hash) as client:
+    with TelegramClient("session", conf.api_id, conf.api_hash) as client:
         try:
             messages = services.get_message_list(conf.messages_list_file)
         except Exception as e:

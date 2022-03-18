@@ -47,7 +47,7 @@ Windows
 На кожен заблочений канал буде дебаг месседж.
 ## Docker
 Для запуску
-    docker run -e API_ID=[Ваш app_id] -e API_HASH=[Ваш  api hash] reporter
+    docker run -ti -e API_ID=[Ваш app_id] -e API_HASH=[Ваш  api hash] reporter
 
 Також можна вказувати такі змінні оточення:
 - JOIN_PERIOD - період перебування на каналі 15 сек за замовчанням
