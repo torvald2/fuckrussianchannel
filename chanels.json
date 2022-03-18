@@ -1,5 +1,4 @@
 [
-    {"id":"readovkanews"},
     {"id":"vysokygovorit"},
     {"id":"rusvesnasu"},
     {"id":"RtrDonetsk"},
@@ -137,5 +136,10 @@
     {"id":"Russ_Center"},
     {"id":"AAAAAEbf2sg_yghkuui5rQ"},
     {"id":"rfarmy"},
-    {"id":"minpravda"}
+    {"id":"minpravda"},
+    {"id":"ZNResp"},
+    {"id":"newsfrontnotes"},
+    {"id":"nationkurs"},
+    {"id":"zvideonews"},
+    {"id":"RVvoenkor"}
 ]
