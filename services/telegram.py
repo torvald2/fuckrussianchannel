@@ -12,3 +12,10 @@ def report(channel, message, period,client):
             message =  message,
         ))
     client(LeaveChannelRequest(channel=channel))
+
+def isChanelBlocked(channel,client):
+    e = client.get_entity(channel)
+    if e.restricted:
+        return False
+    return True
+        
